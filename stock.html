@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>港美股券商开户福利和银行开户服务优惠 - 开户奖励与优惠券集合</title>
+    <meta name="description" content="获取最新的全球券商开户奖励和金融服务优惠。包括IBKR盈透证券、长桥证券、盈立证券、Moomoo等多家知名机构的优惠。立即开户，享受全球金融服务！">
+    <meta name="keywords" content="券商优惠, 开户奖励, 股票交易, 投资, 证券账户, 全球金融服务">
+    <link rel="canonical" href="https://www.example.com/global-financial-promotions" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <meta name="twitter:image" content="https://www.example.com/images/coupon-center-twitter.jpg">
+    <link rel="icon" type="image/x-icon" href="assets/icon.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+        nav {
+            background-color: #2c3e50;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .qr-code {
+            width: 150px;
+            height: 150px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .qr-code img {
+            width: 150px;
+            height: 150px;
+            margin: 0px auto;
+            background-color: white;
+            padding: 0px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="https://rates.itianxia.cn" target="_blank">银行存款利率查询</a></li>
+            <li><a href="https://laosji.net" target="_blank">博客</a></li>
+            <li><a href="https://mp.weixin.qq.com/s/ATihgUW75i1nSRe5PFcPcQ" target="_blank">联系我们</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>港美股券商开户及境外银行开户奖励领取</h1>
+    </header>
+    <main id="root"></main>
+    <footer>
+        <p>关注我们：</p>
+        <p><a href="https://t.me/s/cjfuli" target="_blank">关注laosji电报频道</a> | <a href="https://t.me/+p94vAr_bPIBiNzZl" target="_blank">加入laosji电报群组</a></p>
+        <div class="qr-code">
+            <img src="https://itianxia.cn/laosji-wechat.jpg" alt="微信公众号二维码" />
+        </div>
+        <p>扫描上方二维码关注微信公众号</p>
+        <p>&copy; 2024 laosji 保留所有权利。</p>
+    </footer>
+
+    <script type="text/babel">
+        const PromotionCard = ({ name, rules, code, link, appLink, favicon }) => {
+            const [copySuccess, setCopySuccess] = React.useState(false);
+
+            const copyToClipboard = () => {
+                navigator.clipboard.writeText(code).then(() => {
+                    setCopySuccess(true);
+                    setTimeout(() => setCopySuccess(false), 2000);
+                });
+            };
+
+            return (
+                <article style={{
+                    width: '100%',
+                    maxWidth: '350px',
+                    margin: '20px auto',
+                    border: '1px solid #e1e8ed',
+                    borderRadius: '12px',
+                    overflow: 'hidden',
+                    boxShadow: '0 6px 12px rgba(0, 0, 0, 0.05)',
+                    backgroundColor: 'white',
+                    transition: 'transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out',
+                    ':hover': {
+                        transform: 'translateY(-5px)',
+                        boxShadow: '0 12px 24px rgba(0, 0, 0, 0.1)',
+                    }
+                }}>
+                    <header style={{
+                        padding: '20px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        borderBottom: '1px solid #e1e8ed',
+                        backgroundColor: '#f8fafc'
+                    }}>
+                        {favicon && <img src={favicon} alt={`${name} 图标`} style={{width: '28px', height: '28px', marginRight: '15px'}} />}
+                        <h2 style={{margin: 0, fontSize: '20px', fontWeight: '600', color: '#2c3e50'}}>{name}</h2>
+                    </header>
+                    <div style={{padding: '20px'}}>
+                        <p style={{fontSize: '16px', color: '#5a6c7d', marginBottom: '15px', fontWeight: '500'}}>{rules}</p>
+                        {code && (
+                            <div style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                backgroundColor: '#f1f5f9',
+                                padding: '12px',
+                                borderRadius: '6px',
+                                marginBottom: '15px'
+                            }}>
+                                <p style={{
+                                    fontSize: '16px',
+                                    fontFamily: 'monospace',
+                                    margin: 0,
+                                    flexGrow: 1,
+                                    wordBreak: 'break-all',
+                                    color: '#2c3e50',
+                                    fontWeight: '600'
+                                }}>{code}</p>
+                                <button 
+                                    onClick={copyToClipboard}
+                                    aria-label={`复制优惠码 ${code}`}
+                                    style={{
+                                        backgroundColor: copySuccess ? '#10b981' : '#3b82f6',
+                                        color: 'white',
+                                        border: 'none',
+                                        padding: '8px 12px',
+                                        borderRadius: '6px',
+                                        cursor: 'pointer',
+                                        fontSize: '14px',
+                                        fontWeight: '500',
+                                        marginLeft: '10px',
+                                        transition: 'background-color 0.2s'
+                                    }}
+                                >
+                                    {copySuccess ? '已复制' : '复制'}
+                                </button>
+                            </div>
+                        )}
+                        <a
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                                display: 'block',
+                                width: '100%',
+                                backgroundColor: '#3b82f6',
+                                color: 'white',
+                                textAlign: 'center',
+                                textDecoration: 'none',
+                                padding: '12px 0',
+                                borderRadius: '6px',
+                                fontSize: '16px',
+                                fontWeight: '600',
+                                transition: 'background-color 0.2s',
+                                marginBottom: appLink ? '10px' : '0'
+                            }}
+                        >
+                            立即领取
+                        </a>
+                        {appLink && (
+                            <a
+                                href={appLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    display: 'block',
+                                    width: '100%',
+                                    backgroundColor: '#34d399',
+                                    color: 'white',
+                                    textAlign: 'center',
+                                    textDecoration: 'none',
+                                    padding: '12px 0',
+                                    borderRadius: '6px',
+                                    fontSize: '16px',
+                                    fontWeight: '600',
+                                    transition: 'background-color 0.2s'
+                                }}
+                            >
+                                下载APP
+                            </a>
+                        )}
+                    </div>
+                </article>
+            );
+        };
+
+        const PromotionPage = ({ promotions }) => (
+            <div className="container">
+                <section style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
+                    gap: '30px'
+                }}>
+                    {promotions.map((promotion, index) => (
+                        <PromotionCard key={index} {...promotion} />
+                    ))}
+                </section>
+            </div>
+        );
+
+        // 更新后的数据
+        const promotions = [
+            {
+                name: "老虎证券",
+                rules: "【老虎证券10周年】奖励总价值高达2200港币+180天30次免佣卡，laosji专属链接或下载APP Tiger Trade在首次注册页面填写邀请码 ：LAOSJI",
+                link: "https://tigr.link/7gIFaD",
+                code: "LAOSJI",
+                favicon: "https://www.tigersecurities.com/favicon.ico"
+            },
+            {
+                name: "富途牛牛",
+                rules: "富途新客開戶多重賞-高達$1800;60天内入金並留存累計淨入資達1w港币或以上可得（1）阿里巴巴 - 1股 或（2）$400電子超市禮券。60天内入金並留存入金累計淨入資達8w港币或以上 英伟达 - 1股截止时间7月31；2.开户前输入兑换码可以获取200现金券（入金1w港币后点击使用，3天内即可领取200港币现金）。牛牛兑换码是: （在APP-我的-活动中心-兑换中心领取)",
+                code: "AZ48SM",
+                appLink: "https://www.futunn.com/download/android",
+                favicon: "https://static.futunn.com/futuhk_common/images/favicon.ico"
+            },
+            {
+                name: "长桥证券",
+                rules: "首次净入资1万港币或1300美元，获得港美股永久免佣+laosji渠道额外88京东卡，首次净入资2万港币或者2500美元，再叠加获得400港币股票现金卡",
+                link: "https://app.longbridgehk.com/ac/oa?account_channel=lb&channel=HB100034&invite-code=48T09P",
+                favicon: "https://pub.lbkrs.com/files/202107/35tULHe3n4Pp4EtA/logo.png"
+            },
+            {
+                name: "Moomoo SG",
+                rules: "新人礼包高达$990新加坡证券APP下载NO.1，存入S$100.000免费获得Apple股票1支价值约$243。\n存入S$100，并执行1笔买入交易，获得S$20现金福利;存入S$3.000，并执行3笔买入交，免费获得价值约S$70的碎碎股礼包“x1; \n存入S$10.000，并执行8笔买入交与免费获得价值约S$70的碎碎股礼包“x3; \n存入S$100.000免费获得价值约S$243的1股Apple(NASDAQ:AAPL)",
+                link: "https://j.moomoo.com/017wOA",
+                favicon: "https://passport.moomoo.com/favicon1.ico"
+            },
+            {
+                name: "盈立证券新加坡",
+                rules: "微信打开链接，即可办理盈立证券开户。输入邀请码：nyaljb",
+                code: "nyaljb",
+                link: "https://m.usmartsg.com/promo/overseas/sg-register.html?langType=1&HCode=nyaljb&HBox=1#/marketing-register",
+                appLink: "https://www.usmart.sg/cn/download",
+                favicon: "https://www.usmartglobal.com/favicon.ico"
+            },
+            {
+                name: "新加坡长桥证券",
+                rules: "首次净入金达 SGD 3,000 港美股终生免佣 价值 SGD 72 股票现金卡 价值 USD5 期权现金卡",
+                code: "48T09P",
+                link: "https://tinyurl.com/2tc6y9jr?channel=HB100034&invite-code=48T09P",
+                favicon: "https://pub.lbkrs.com/files/202205/xAwaQmCk1cD1AUsm/favicon.png"
+            },
+            {
+                name: "IBKR盈透证券",
+                rules: "领取最多$1000美金开户奖励",
+                link: "https://www.interactivebrokers.com/referral/chao135",
+                favicon: "https://www.interactivebrokers.com/images/2015/template/home-screen-icon-192x192.png"
+            },
+            {
+                name: "美国第一证券",
+                rules: "0佣金交易 $0期权合约费用 无最低存款要求，无账户闲置费",
+                link: "https://affiliate.firstrade.com/affiliate/idevaffiliate.php?id=1679",
+                favicon: "https://www.firstrade.com/favicon-32x32.png"
+            },
+            {
+                name: "嘉信理财Charles SCHWAB",
+                rules: "注册开户成功45天内入金，最高可获得$1000美金奖励",
+                link: "https://www.schwab.com/client-referral?refrid=REFERCHPQ83NZ",
+                favicon: "https://www.schwab.com/themes/custom/sch_retail/favicon.ico"
+            },
+            {
+                name: "Trading212",
+                rules: "英国券商trading212送10英镑，名额有限开户成功后入金1英镑，可获得最低10英镑的奖励",
+                link: "https://www.trading212.com/invite/19BaD17WnV",
+                favicon: "https://www.trading212.com/favicon.png"
+            },
+            {
+                name: "ZA BANK",
+                rules: "开户领取300港币现金红包，20%P.A,港元定存利率!",
+                code: "NUGAP7",
+                link: "https://mp.weixin.qq.com/s/Sp03PeHj-tF3lSAhx-fGAw",
+                favicon: "https://cdn.za.group/if/za-group-portal-web/assets/images/share-logo.png"
+            },
+            {
+                name: "Wise",
+                rules: "无管理费，免费获得Wise虚拟卡",
+                link: "https://wise.com/invite/ihps/duanc11?utm_source=ios-pill-hp-sms&utm_medium=invite&utm_campaign=&utm_content=&referralCode=duanc11",
+                favicon: "https://wise.com/public-resources/assets/icons/wise-personal/favicon.png"
+            },
+            {
+                name: "iFAST",
+                rules: "开户领取5英镑现金奖励，无最低存款要求，无年费，英国（FSCS）资金保障",
+                link: "https://www.ifastgb.com/en/tellafriend/chaod1702",
+                favicon: "https://www.ifastgb.com/favicon.ico"
+            },
+            {
+                name: "华侨银行OCBC",
+                rules: "无最低存款要求，手机远程申请秒开户，兑换码是W5GR37JB。",
+                code: "W5GR37JB",
+                link: "https://mp.weixin.qq.com/s/YgT5PNiV0gKHHjtkAjUvQQ",
+                favicon: "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/favicon/favicon-32x32.png"
+            }
+        ];
+
+        // 渲染应用
+        ReactDOM.render(
+            <PromotionPage promotions={promotions} />,
+            document.getElementById('root')
+        );
+    </script>
+</body>
+</html>
+</antArt
