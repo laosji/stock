@@ -121,6 +121,9 @@
                 });
             };
 
+            // 将规则文本转换为数组
+            const rulesList = rules.split('\n').filter(rule => rule.trim() !== '');
+
             return (
                 <article style={{
                     width: '100%',
@@ -148,7 +151,12 @@
                         <h2 style={{margin: 0, fontSize: '20px', fontWeight: '600', color: '#2c3e50'}}>{name}</h2>
                     </header>
                     <div style={{padding: '20px'}}>
-                        <p style={{fontSize: '16px', color: '#5a6c7d', marginBottom: '15px', fontWeight: '500'}}>{rules}</p>
+                       // <p style={{fontSize: '16px', color: '#5a6c7d', marginBottom: '15px', fontWeight: '500'}}>{rules}</p>
+                        <ul className="rules-list">
+                            {rulesList.map((rule, index) => (
+                                <li key={index}>{rule}</li>
+                            ))}
+                        </ul>
                         {code && (
                             <div style={{
                                 display: 'flex',
