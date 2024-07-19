@@ -97,9 +97,7 @@
 ## 熊猫速汇
 - **Name:** 熊猫速汇
 - **Rules:** 资金汇出，手续费低至70元/每笔，领取10元立减优惠券
-- **Link:** [https://pandaremit.kcb
-
-ebank.com.cn/h5activity/jcRemit?invtCode=11221680&targetLocation=ip](https://pandaremit.kcbebank.com.cn/h5activity/jcRemit?invtCode=11221680&targetLocation=ip)
+- **Link:** [https://pandaremit.kcbebank.com.cn/h5activity/jcRemit?invtCode=11221680&targetLocation=ip](https://pandaremit.kcbebank.com.cn/h5activity/jcRemit?invtCode=11221680&targetLocation=ip)
 ```
 
 You can copy and paste this directly into your GitHub README.md file.
