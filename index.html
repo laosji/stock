@@ -274,7 +274,7 @@
         const PromotionPage = ({ promotions }) => {
         const [activeCategory, setActiveCategory] = React.useState('全部');
 
-        const categories = ['全部', '港美股', '境外银行', '境外手机卡', '境外转运', '其他'];
+        const categories = ['全部', '港美股', '境外银行', '境外手机卡', '境外转运', '数字货币','其他'];
 
         const filteredPromotions = activeCategory === '全部' 
             ? promotions 
@@ -507,6 +507,22 @@
                 favicon: "Just My Socks",
                 category: "其他"
             },
+
+            {
+                name: "币安（binance）",
+                rules: "币安是全球交易量最大的加密货币交易平台，开户赢取最高1000USDT奖励",
+                link: "https://www.binance.com/activity/referral-entry/CPA/together-v4?hl=zh-CN&ref=CPA_00U6B6DNIR&utm_source=Lite_web_account",
+                favicon: "https://bin.bnbstatic.com/static/images/bnb-for/brand.png",
+                category: "数字货币"
+            },
+            {
+                name: "Bybit",
+                rules: "数字货币衍生品交易所",
+                link: "https://partner.bybit.com/b/99443",
+                favicon: "https://www.bybitglobal.com/common-static/fhs/bybit-home-new/logo-dark.svg",
+                category: "数字货币"
+            },
+
             {
                 name: "V2Free✈️机场",
                 rules: "支持Windows/MAC/iOS/安卓/Linux/路由器等各平台高速翻墙，高速稳定 不限流量，新用户可获得免费流量",
